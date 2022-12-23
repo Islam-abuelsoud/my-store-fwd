@@ -8,6 +8,8 @@ import { ProductItemDetailComponent } from './product-item-detail/product-item-d
 import { ProductListComponent } from './product-list/product-list.component';
 import { CartComponent } from './cart/cart.component';
 import { NavComponent } from './nav/nav.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { NavComponent } from './nav/nav.component';
     ProductItemDetailComponent,
     ProductListComponent,
     CartComponent,
-    NavComponent
+    NavComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
