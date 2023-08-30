@@ -1,0 +1,22 @@
+.product-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    margin-bottom: 64px;
+}
+
+/* .one {
+    width: 100%;
+} */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.secondary {
+    background-color: blanchedalmond;
+}
